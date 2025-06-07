@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violence Detection</title>
+</head>
+<body>
+    <h1>Violence Detection System</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="cctv_url">Enter CCTV Video URL:</label>
+        <input type="text" name="cctv_url" id="cctv_url"><br><br>
+
+        <label for="file">Upload Video File:</label>
+        <input type="file" name="file" id="file"><br><br>
+
+        <label>
+            <input type="checkbox" name="use_camera" value="true"> Use Inbuilt Camera
+        </label><br><br>
+
+        <button type="submit">Start Detection</button>
+    </form>
+</body>
+</html>
